@@ -1,0 +1,41 @@
+{
+  "Default": {
+    "crop1": 34,
+    "crop2": 34,
+    "dimension2": 80
+  },
+"Qbert": {
+    "crop1": 12,
+    "crop2": 40,
+    "dimension2": 94,
+    "mean_red": 0.15,
+    "mean_green": 0.17,
+    "mean_blue": 0.10,
+    "std_red": 0.23,
+    "std_green": 0.27,
+    "std_blue": 0.16
+  },
+  "BeamRider": {
+    "crop1": 20,
+    "crop2": 20,
+    "dimension2": 80,
+    "mean_red": 0.06,
+    "mean_green": 0.05,
+    "mean_blue": 0.04,
+    "std_red": 0.15,
+    "std_green": 0.13,
+    "std_blue": 0.10
+
+  },
+  "Seaquest": {
+    "crop1": 30,
+    "crop2": 30,
+    "dimension2": 80,
+    "mean_red": 0.25,
+    "mean_green": 0.20,
+    "mean_blue": 0.31,
+    "std_red": 0.23,
+    "std_green": 0.22,
+    "std_blue": 0.25
+  }
+}
