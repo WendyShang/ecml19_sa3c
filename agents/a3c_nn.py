@@ -286,7 +286,7 @@ class A3CAgent(Agent):
             loss_model_vb = loss_model_vb + (policy_loss_vb[j] + self.lam * value_loss_vb[j])/rollout_steps[j] 
 
         loss_model_vb.backward()
-        torch.nn.utils.clip_grad_norm(self.model.parameters(), self.clip_grad)
+        torch.nn.utils.clip_grad_norm_(self.model.parameters(), self.clip_grad)
 
         p_loss_avg = 0
         v_loss_avg = 0
