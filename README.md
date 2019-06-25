@@ -2,7 +2,7 @@
 
 This repository demonstrates our proposed stochastic activation actor critic methods, published at ECML-PKDD 2019. We use Qbert, BeamRider, and Seaquest to showcase sa3c, fully stochastic a3c (fa3c), and hierarchical prior sa3c (hpa3c) respectively. In addition, we provide baseline a3c and noisy-net training code as comparison. 
 
-If you find our work and code useful, please cite our paper [[pdf](http://www-personal.umich.edu/~shangw/ecml19.pdf)]:
+If you find our work and code useful, please cite our paper [[pdf](http://www-personal.umich.edu/~shangw/papers/ecml19.pdf)][[appendix](http://www-personal.umich.edu/~shangw/papers/ecml19_appendix.pdf)]:
 ```
 @inproceedings{shang2019stochastic,
   title={Stochastic Activation Actor Critic Methods},
